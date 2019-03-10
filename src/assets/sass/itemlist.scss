@@ -1,0 +1,43 @@
+  // 栏目列表
+  .items{
+    width: rem(730px);
+    // height: rem(1000px);
+    margin: 0 auto;
+    // margin-bottom: rem(100px);
+    .item{
+      display: flex;
+      align-items: center;
+      height: rem(120px);
+      border-bottom: rem(1px) solid #ccc;
+      img{
+        width: rem(80px);
+        height: rem(80px);
+      }
+      .tab{
+        margin: 0 rem(20px);
+        div{
+          width: rem(75px);
+          height: rem(45px);
+          background: #e5e5e5;
+          color:#333;
+          font-size: rem(28px);
+          border-radius: rem(5px);
+          text-align: center;
+          line-height: rem(45px);
+          font-family: '楷体';
+          &.top{
+            background: #8dbb39;
+            color:#fff;            
+          }
+        }
+      }
+      .title{
+        font-size: rem(34px);
+        flex:1;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color:#333;
+      }
+    }
+  }
